@@ -1,0 +1,43 @@
+# --- Secrets & configuration locale ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- Bases locales ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Node / Next.js ---
+node_modules/
+.next/
+out/
+dist/
+build/
+.turbo/
+*.tsbuildinfo
+npm-debug.log*
+
+# --- Supabase local ---
+supabase/.branches
+supabase/.temp
+
+# --- Éditeurs / OS ---
+.DS_Store
+.idea/
+.vscode/
+*.swp
